@@ -1,0 +1,466 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, tr, th, td, div, ul, li, input, label, textarea {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+.height-50 {
+  height: 50px !important;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-15 {
+  font-size: 15px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-19 {
+  font-size: 19px !important;
+}
+
+.font-21 {
+  font-size: 21px !important;
+}
+
+.font-22 {
+  font-size: 22px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-36 {
+  font-size: 36px !important;
+  font: bold;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.float-right {
+  float: right;
+}
+
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #BBBBBB;
+}
+
+.signoutLink {
+  position: fixed;
+  bottom: 20px;
+  width: 16.666667% !important;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: inherit;
+  }
+  .signoutLink {
+    position: inherit;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+  .font-36 {
+    font-size: 30px !important;
+  }
+}
+
+.menuItem {
+  font-size: 18px;
+  color: #000000;
+}
+
+.menuItem:hover {
+  background-color: rgba(61, 189, 143, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgba(61, 189, 143, 0.4);
+}
+
+.top-border {
+  border-top: 1px solid #aaaaaa;
+}
+
+.bg-login {
+  background-color: #3DBD8F;
+  min-height: 100vh;
+}
+
+.bg-login .form-label {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+.bg-keto-primary {
+  background-color: rgba(61, 189, 143, 0.4) !important;
+}
+
+.bg-keto-secondary {
+  background-color: #F5F7FB;
+}
+
+.color-keto-secondary {
+  color: #929292;
+}
+
+.color-keto-primary {
+  color: #3DBD8F;
+}
+
+.table {
+  font-size: 13px !important;
+  margin-bottom: 0px !important;
+}
+
+.admin-dashboard th, .admin-dashboard td {
+  padding: 2px !important;
+}
+
+table tbody tr td {
+  vertical-align: middle !important;
+}
+
+.admin-meal-plan-view table tbody tr td {
+  vertical-align: baseline !important;
+}
+
+.keto-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.keto-rounded-lg {
+  border-radius: 10px !important;
+}
+
+.admin-affiliates .table {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.badge {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.badge-keto-primary {
+  border: 1px solid #3DBD8F !important;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #3DBD8F;
+  color: #3DBD8F;
+}
+
+.badge-keto-warning {
+  border: 1px solid #FBD13E !important;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #FBD13E;
+  color: #FBD13E;
+}
+
+.badge-keto-danger {
+  border: 1px solid #FF0000 !important;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #FF0000;
+  color: #FF0000;
+}
+
+.admin-products th, .admin-products td {
+  padding: 2px !important;
+}
+
+.product-image-border {
+  border-radius: 5px !important;
+}
+
+.store-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.admin-create-product .product-field {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 30px;
+}
+
+.file {
+  height: 1px;
+  width: 10px;
+  margin-left: 50px;
+  margin-top: -2px;
+  border: 1px solid transparent;
+}
+
+.product-description {
+  -webkit-user-modify: read-write-plaintext-only;
+  line-height: 30px;
+}
+
+.input-group-keto-small {
+  width: 122px !important;
+}
+
+.input-keto-small {
+  text-align: right;
+}
+
+.btn-keto-light {
+  background-color: lightgray;
+}
+
+.client-cart hr {
+  margin: 0px !important;
+}
+
+.no-cartlines {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.narrow-input {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 30px;
+}
+
+.btn-register {
+  background: rgba(255, 255, 255, 0.7);
+  width: 250px;
+}
+
+.material-icons {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-filter {
+  width: 120px;
+  margin-left: 10px;
+  height: 25px;
+}
+
+.bg-affiliate {
+  min-height: 100vh;
+}
+
+.min-width-250 {
+  min-width: 250px;
+}
+
+.width-40 {
+  min-width: 40px;
+}
+
+.width-60 {
+  min-width: 60px;
+}
+
+.width-90 {
+  min-width: 90px;
+}
+
+.width-150 {
+  min-width: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hover-keto-light:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #C2C9D1;
+}
+
+.course-description {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+}
+
+.client-checkout body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .client-checkout form {
+  width: 30vw;
+  min-width: 500px;
+  align-self: center;
+  box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  padding: 40px;
+} */
+
+
+.client-checkout #payment-message {
+  color: rgb(105, 115, 134);
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.client-checkout #payment-element {
+  margin-bottom: 11.5px;
+}
+
+/* Buttons and links */
+.client-checkout button {
+  background: #5469d4;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+
+.client-checkout button:hover {
+  filter: contrast(115%);
+}
+
+.client-checkout button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* spinner/processing state, errors */
+.client-checkout .spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.client-checkout .spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.client-checkout .spinner:before,
+.spinner:after {
+  position: absolute;
+  content: '';
+}
+
+.client-checkout .spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #5469d4;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+
+.client-checkout .spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #5469d4;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.p-GridCell {
+  margin-bottom: 10px !important;
+}
+
+form .form-label {
+  line-height: 1;
+  font-size: 14.88px;
+  margin-bottom: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#payment-form .form-control {
+  margin-top: -2.5px;
+  height: 44px;
+  border: 1px solid #e6e6e6;
+}
+
+#payment-form .form-group {
+  margin-bottom: 11.5px !important;
+}
+
+.admin-recipe-create .form-control {
+  background-color: #f6f6f6;
+}
+
+.admin-recipe-create .inline-form {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.admin-meal-plan-create .form-control {
+  background-color: #f6f6f6;
+}
